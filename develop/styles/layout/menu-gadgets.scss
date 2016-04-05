@@ -1,0 +1,41 @@
+/* menu-gadgets */
+
+.menu-gadgets{
+  overflow: hidden;
+  position: relative;
+  top: -31px;
+}
+
+    .menu-gadgets__item{
+      overflow: hidden;
+      background: #fff;
+//      background-position: 50% 70%;
+    }
+
+      .menu-gadgets__link{
+        background: url('/img/main-catalog__item-top-bg.jpg') top center no-repeat;
+        display: block;
+        padding: 20px;
+        height: 260px;
+        text-decoration: none;
+        border-left: 1px solid #e8e9f5;
+        border-right: 1px solid #e8e9f5;
+        border-bottom: 2px solid #e8e9f5;
+        border-radius: 0 0 2px 2px;
+        color: #505364;
+      }
+
+          .menu-gadgets__name{
+            background: url('/img/menu-gadgets__name-bg.png') no-repeat right center;
+          }
+
+            .menu-gadgets__name >span{
+              font-size: 18px;
+              line-height: 1.2;
+              font-weight: 700;
+              text-decoration: none;
+
+              border-bottom: 2px solid #a7d3e9;
+
+            }
+

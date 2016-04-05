@@ -1,0 +1,107 @@
+@media (max-width: 767px) {
+
+  /* header */
+  .navbar-collapse {
+    padding: 0;
+  }
+
+  .header-logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .header__phone__lst {
+    display: none;
+  }
+
+  .main-menu {
+    margin-top: 0;
+    padding-top: 20px;
+    background: #201215;
+    opacity: 0.9;
+  }
+
+  .main-menu__item {
+    margin-right: 0;
+    display: block;
+    border: none;
+  }
+
+  .main-menu__link {
+    display: block;
+    padding: 10px 15px;
+  }
+
+  .swiper-container {
+    //    display: none;
+  }
+
+  
+  /* prices */
+
+  .price__lst__table > tbody > tr > td:first-child{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* advantages */
+  .advantages__horisontal__item{
+    padding-bottom: 10px;
+  }
+
+
+  /* blog */
+  article .ul-col-3,
+  article .ul-col-2{
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+
+  }
+
+  .employees__item{
+    max-height: 100%;
+  }
+
+  .blog__post {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f6d4cb;
+  }
+
+  /* application */
+  .application__form{
+    margin-bottom: 0;
+
+    .form-group {
+      margin-bottom: 0;
+    }
+
+    .application__form__item-info{
+      margin-top: 5px;
+    }
+  }
+
+  /* device__lst */
+  .device__item{
+    text-align: center;
+  }
+
+
+  /* footer */
+  .main-menu--footer {
+    background: transparent !important;
+
+    .main-menu__link {
+      padding: 15px 0;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+
+  .navbar-brand {
+    width: 250px;
+  }
+
+}

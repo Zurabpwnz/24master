@@ -1,0 +1,17 @@
+/* sidebar */
+
+#sidebar {
+  overflow: hidden;
+  background: #ccc;
+  height: 100vh;
+  margin: 0 -15px;
+  color: #fff;
+  z-index: 30;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 290.5px;
+  z-index: 9999;
+}

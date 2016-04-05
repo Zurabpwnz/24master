@@ -1,0 +1,153 @@
+/* header
+********************/
+
+.header {
+  overflow: hidden;
+  background: #323232;
+  width: 100%;
+  height: 165px;
+  z-index: 20;
+}
+
+.top-line {
+  position: relative;
+  background: url("../img/top_line.png") center center;
+  height: 3px;
+  z-index: 67;
+}
+
+.header-info {
+  background: #fff;
+  height: 81px;
+}
+
+
+
+/* Nav menu */
+
+.navbar {
+  margin-bottom: 0;
+  min-height: 80px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-toggle {
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.header-logo {
+  margin-top: 5px;
+}
+
+.main-menu {
+  overflow: hidden;
+  font-size: 0;
+  text-align: right;
+  margin-top: 25px;
+}
+
+.main-menu__item {
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #905464;
+  margin-right: 40px;
+
+  &:first-child,
+  &:nth-child(2) {
+    border-color: #905464;
+  }
+
+  &:nth-child(3),
+  &:nth-child(4) {
+    border-color: #fff;
+  }
+
+  &:nth-child(5),
+  &:nth-child(6) {
+    border-color: #fff;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.active {
+
+    > a,
+    span {
+      color: #fff;
+    }
+  }
+
+  &:hover {
+    a {
+      color: #ccc;
+    }
+  }
+
+  .main-menu__link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+
+}
+
+/* header-info*/
+
+.header-info {
+  overflow: hidden;
+}
+
+.header__phone__item {
+  font-size: 14px;
+  line-height: 20px;
+  color: #bf4f31;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

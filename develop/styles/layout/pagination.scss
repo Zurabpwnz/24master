@@ -1,0 +1,55 @@
+/* pagination
+*******************/
+
+.pagination{
+  margin: 40px 0 0;
+}
+
+  .pagination > li{
+
+    &.active{
+      >span{
+        background: #d43b12;
+        border: none;
+      }
+      &:hover{
+        >a{
+          background: #fff;
+          padding: 3px 9px;
+          border: 1px solid #3e343a;
+          color: #3e343a;
+          cursor: pointer;
+        }
+        span{
+          padding: 2px 9px;
+          cursor: pointer;
+          background: #fff;
+          border-color: #3e343a;
+          color: #3e343a;
+        }
+      }
+    }
+  }
+
+    .pagination > li > a,
+    .pagination > li > span{
+      background: #3e343a;
+      color: #fff;
+      border: none;
+      height: 30px;
+      width: 30px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      border-radius: $rad;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 3px 10px;
+
+      &:hover{
+        background: #fff;
+        padding: 3px 9px;
+        border: 1px solid #3e343a;
+        color: #3e343a;
+      }
+    }

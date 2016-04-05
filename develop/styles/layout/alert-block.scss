@@ -1,0 +1,25 @@
+/* alert-block */
+
+.alert-block{
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 25px 30px 15px;
+  @include box-shadow($shadow);
+  border-radius: $rad;
+}
+
+  .alert-block__availability{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #505364;
+  }
+  
+  .alert-block__time{
+    font-size: 14px;
+    line-height: 1.2;
+    color: #505364;
+    opacity: 0.35;
+    text-align: right;
+  }
