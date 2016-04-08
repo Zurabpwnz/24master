@@ -1,6 +1,6 @@
 // Main styles //
 $textColor: #505364;
-$linkColor: #d43b12;
+$linkColor: #a7d3e9;
 
 $rad: 2px;
 $shadow: inset 0px 0px 0px 1px rgba(232,233,245,1);
@@ -22,38 +22,44 @@ $fw: 700;
   border-bottom: 1px solid #a7d3e9;
 }
 
+@mixin dashed(){
+  background: #353638;
+  border: 1px dashed #424242;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.23);
+}
+
+@mixin dashedHover(){
+  border-color: #9b9b9b;
+}
+
 
 /* main
 ====================== */
-//::-webkit-input-placeholder {
-//  color: #666666;
-//}
-//
-//::-moz-placeholder {
-//  color: #666666;
-//}
-//
-///* Firefox 19+ */
-//:-moz-placeholder {
-//  color: #666666;
-//}
-//
-///* Firefox 18- */
-//:-ms-input-placeholder {
-//  color: #666666;
-//}
+::-webkit-input-placeholder {
+  color: #666666;
+}
 
-/* img {
-  border-radius: $rad;
-} */
+::-moz-placeholder {
+  color: #666666;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #666666;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #666666;
+}
 
 a {
   color: $linkColor;
   text-decoration: underline;
-  -webkit-transition: color 0.5s ease-out 0.2s;
-  -moz-transition: color 0.5s ease-out 0.2s;
-  -o-transition: color 0.5s ease-out 0.2s;
-  transition: color 0.5s ease-out 0.2s;
+  -webkit-transition: color 0.2s ease-out 0.2s;
+  -moz-transition: color 0.2s ease-out 0.2s;
+  -o-transition: color 0.2s ease-out 0.2s;
+  transition: color 0.2s ease-out 0.2s;
 
   &:hover {
     text-decoration: none;
@@ -79,6 +85,7 @@ a {
 
 .btn-light {
   background: #f0f6f9;
+  margin-bottom: 20px;
   color: #505364;
   -webkit-transition: background 0.5s ease-out 0.2s;
   -moz-transition: background 0.5s ease-out 0.2s;
@@ -91,10 +98,44 @@ a {
   }
 }
 
+.btn-blue {
+  float: right;
+  background: #3399cc;
+  margin-top: 25px;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 400;
+  -webkit-transition: background 0.5s ease-out 0.2s;
+  -moz-transition: background 0.5s ease-out 0.2s;
+  -o-transition: background 0.5s ease-out 0.2s;
+  transition: background 0.5s ease-out 0.2s;
+
+  &:hover {
+    background: #1a79a8;
+    color: #fff;
+  }
+}
+
+.btn-blue--lg{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 23px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  border-bottom: 4px solid #1a79a8;
+  text-transform: uppercase;
+
+  &:hover {
+    background: #1a79a8;
+    color: #fff;
+  }
+}
+
 .btn-orange:hover,
 .btn:focus,
 .btn:active:focus {
-  color: #505364;
+  color: #fff;
   outline: none;
 }
 
@@ -114,10 +155,12 @@ body {
 
 label {
   font-size: 16px;
+  color: #a9aaac;
+  font-weight: 400;
 }
 
 .title{
-  margin: 20px 0;
+  margin: 30px 0 20px;
   padding-left: 55px;
   font-size: 20px;
   line-height: 24px;
@@ -126,7 +169,7 @@ label {
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .form-control {
@@ -135,14 +178,15 @@ label {
   border-radius: $rad;
   padding: 4px 12px 0;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 700;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-
-
+.table > tbody > tr > td{
+  border-top: none;
+}
 
 /* main */
 
@@ -152,30 +196,22 @@ label {
   z-index: 10;
 }
 
-.slider {
-  overflow: hidden;
-  height: 298px;
-  margin: 0 -15px;
-}
-
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
-  border-right: 1px solid red;
-  border-left: 1px solid red;
-}
-
-
-
-
 @import "layout/header";
+@import "layout/head1-block";
 @import "layout/sidebar";
-@import "layout/content";
+@import "layout/form-sidebar";
 
+@import "layout/content";
+@import "layout/slider";
 @import "layout/menu-gadgets";
 @import "layout/menu-domestic";
 @import "layout/menu-professional";
 @import "layout/advantages-block";
 @import "layout/alert-block";
 @import "layout/page-article";
+@import "layout/blog-list";
+@import "layout/reviews";
+@import "layout/prices-block";
 
 
 

@@ -1,0 +1,23 @@
+/* form-sidebar */
+
+.form-sidebar{
+  overflow: hidden;
+  @include dashed;
+  margin-bottom: 20px;
+  padding: 15px;
+
+  &:hover{
+    @include dashedHover;
+    cursor: pointer;
+  }
+}
+
+  .form-sidebar__title{
+    padding-right: 55px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffcc2b;
+    text-transform: uppercase;
+  }
+

@@ -5,10 +5,13 @@
 }
 
   .advantages-block__title{
-
+    background-image: url('/img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
   }
 
   .advantages-block__item{
+    width: 100%;
     display: table;
     margin-bottom: 20px;
     @include box-shadow($shadow);

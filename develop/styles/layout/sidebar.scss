@@ -2,9 +2,10 @@
 
 #sidebar {
   overflow: hidden;
-  background: #ccc;
+  background: #323232;
   height: 100vh;
   margin: 0 -15px;
+  padding: 15px;
   color: #fff;
   z-index: 30;
 }
@@ -12,6 +13,71 @@
 .fixed {
   position: fixed;
   top: 0;
-  width: 290.5px;
+  width: 292.5px;
   z-index: 9999;
 }
+
+    .sidebar__category-item{
+      display: table;
+      height: 90px;
+      margin-bottom: 15px;
+      padding: 15px 10px 15px 80px;
+      font-size: 16px;
+      line-height: 1.2;
+      color: #fff;
+      text-decoration: none;
+      @include dashed;
+
+      &:hover{
+        color: #fff;
+        @include dashedHover;
+        cursor: pointer;
+      }
+
+      >span{
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+
+    .sidebar__category-item--mob-equipment{
+      background-image: url('/img/phone-icon.png');
+      background-position: 15px 20px;
+      background-repeat: no-repeat;
+    }
+
+    .sidebar__category-item--but-equipment{
+      background-image: url('/img/but-teh-icon.png');
+      background-position: 15px 20px;
+      background-repeat: no-repeat;
+    }
+
+    .sidebar__category-item--prof-equipment{
+      background-image: url('/img/electro-icon.png');
+      background-position: 15px 20px;
+      background-repeat: no-repeat;
+    }
+
+    .sidebar__around-clock{
+      font-size: 16px;
+      line-height: 1.2;
+      color: #a9aaac;
+      padding-left: 15px;
+    }
+
+    .sidebar__phone{
+      @include dashed;
+      margin: 0 0 2px 0;
+      padding: 0 15px;
+      font-size: 24px;
+      line-height: 48px;
+      font-weight: 700;
+      color: #fe7087;
+      background-image: url('/img/sidebar__phone-bg.png');
+      background-repeat: no-repeat;
+      background-position: 235px center;
+
+      &:hover{
+        @include dashedHover;
+      }
+    }

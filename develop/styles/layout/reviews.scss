@@ -1,0 +1,15 @@
+/* reviews */
+
+.reviews{
+  overflow: hidden;
+}
+
+  .reviews__title{
+    background-image: url('/img/reviews__title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+  }
+
+  .reviews__cnt{
+    @include box-shadow($shadow);
+  }

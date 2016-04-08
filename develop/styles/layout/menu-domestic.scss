@@ -2,18 +2,30 @@
 
 .menu-domestic{
   overflow: hidden;
+  margin-bottom: -30px;
 }
 
+  .menu-domestic__title{
+    background-image: url('/img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+  }
+
+  .menu-domestic__item__top-line{
+    background: url('/img/menu-domestic__item__top-line-bg.jpg') repeat-y;
+    height: 3px;
+  }
+  
   .menu-domestic__item{
     background: #fff;
     overflow: hidden;
     height: 110px;
     margin-bottom: 30px;
+    @include box-shadow($shadow);
   }
     
     .menu-domestic__item__cnt{
-      border-top: 3px solid #d16c85;
-      border-bottom: 1px solid #ccc;
+
     }
 
         .menu-domestic__item__title {
@@ -50,5 +62,6 @@
         overflow: hidden;
         display: block;
         width: 160px;
-        height: 160px;
+        height: 108px;
+        margin: 0 0 0 1px;
       }

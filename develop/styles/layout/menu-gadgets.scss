@@ -3,24 +3,24 @@
 .menu-gadgets{
   overflow: hidden;
   position: relative;
-  top: -31px;
+  z-index: 30;
 }
+    .menu-gadgets__top-line{
+      background: url('/img/main-catalog__item-top-bg.jpg') top center no-repeat;
+      height: 3px;
+    }
 
     .menu-gadgets__item{
       overflow: hidden;
       background: #fff;
-//      background-position: 50% 70%;
     }
 
       .menu-gadgets__link{
-        background: url('/img/main-catalog__item-top-bg.jpg') top center no-repeat;
         display: block;
         padding: 20px;
         height: 260px;
         text-decoration: none;
-        border-left: 1px solid #e8e9f5;
-        border-right: 1px solid #e8e9f5;
-        border-bottom: 2px solid #e8e9f5;
+        @include box-shadow($shadow);
         border-radius: 0 0 2px 2px;
         color: #505364;
       }
@@ -34,8 +34,13 @@
               line-height: 1.2;
               font-weight: 700;
               text-decoration: none;
-
-              border-bottom: 2px solid #a7d3e9;
-
+              border-bottom: 1px solid #a7d3e9;
             }
-
+            
+         .menu-gadgets__icon{
+           width: 100%;
+           display: block;
+           min-height: 187px;
+           background-repeat: no-repeat;
+           background-position: center center;
+         }

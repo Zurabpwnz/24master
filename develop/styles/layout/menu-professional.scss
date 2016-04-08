@@ -3,33 +3,28 @@
 .menu-professional{
   overflow: hidden;
 }
-
-  .menu-professional__all-items{
-    background: #fff;
-    padding: 30px;
-    @include box-shadow($shadow);
-    border-radius: $rad;
-
+  .menu-professional__title{
+    background-image: url('/img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
   }
-    .menu-professional__all-items__btn{
-      margin-bottom: 20px;
+
+    .menu-professional__all-items{
+      background: #fff;
+      padding: 30px 30px 15px;
+      @include box-shadow($shadow);
+      border-radius: $rad;
     }
-
-    .menu-professional__lst{
-      overflow: hidden;
-    }
-
-      .menu-professional__item{
-
+      .menu-professional__lst{
+        overflow: hidden;
       }
 
-        .menu-professional__link{
-          @include textLink($fz, $fw);
-          line-height:36px;
-          text-decoration: none;
+        .menu-professional__item{
+          margin-bottom: 15px;
         }
 
-
-
-
-
+          .menu-professional__link{
+            @include textLink($fz, $fw);
+            line-height: 1.2;
+            text-decoration: none;
+          }

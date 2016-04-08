@@ -1,0 +1,32 @@
+/* blog-list */
+
+.blog-list{
+  overflow: hidden;
+}
+
+  .blog-list__title{
+    background-image: url('/img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+  }
+
+  .blog-list__cnt{
+    background: #fff;
+    padding: 30px 30px 15px;
+    @include box-shadow($shadow);
+    border-radius: $rad;
+  }
+
+    .blog-list__lst{
+      overflow: hidden;
+    }
+
+      .blog-list__item{
+        margin-bottom: 15px;
+      }
+
+        .blog-list__link{
+          @include textLink($fz, $fw);
+          line-height: 1.2;
+          text-decoration: none;
+        }
