@@ -123,7 +123,7 @@
 
   .header-info__phone {
     background: url('/img/ic_b_phone.png') no-repeat left center;
-    margin: 30px 0;
+    margin: 29px 0;
     padding-left: 30px;
     font-size: 20px;
     line-height: 24px;
@@ -131,7 +131,7 @@
     font-weight: 400;
 
     >span{
-      display: block;
+//      display: block;
     }
   }
 
@@ -156,6 +156,7 @@
   }
 
   .header-info__maps{
+    display: none;
     float: right;
     background: url('/img/ic_b_map.png') no-repeat center center;
     display: block;

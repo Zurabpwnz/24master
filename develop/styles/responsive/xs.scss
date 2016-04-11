@@ -1,5 +1,13 @@
 @media (max-width: 767px) {
 
+  body {
+    background: /*url('../img/body_bg.png') center center no-repeat, */
+      url('../img/blue_bg.png') no-repeat #f7f8fb;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: $textColor;
+  }
+
   /* header */
   .header{
     height: auto;
@@ -15,6 +23,14 @@
 
 
   /* header-inner */
+  .head-inner{
+    margin-top: 30px;
+  }
+
+  .head-inner__title{
+    font-size: 36px;
+  }
+
   .head-inner__question{
     display: block;
     line-height: 2;
@@ -78,10 +94,27 @@
 
   .title{
     background-position: 10px center;
-    color: #fff;
+    padding-left: 15px;
+  }
+
+  .prices-block__title,
+  .advantages-block__title,
+  .alert-block,
+  .page-article__title,
+  .reviews__title,
+  .blog-list__title{
+    background-image: none;
   }
 
 
+  .alert-block{
+    padding: 25px 30px;
+  }
+
+  .alert-block__time{
+    text-align: left;
+  }
+  
   /* price-block */
   .prices-block__table{
     margin-bottom: 0;
@@ -96,6 +129,15 @@
   }
 
 
+  /* advantages-block */
+  .advantages-block__item__desc{
+    height: 190px;
+  }
+
+  .page-article__cnt p > img{
+    width: 100%;
+    height: auto;
+  }
 
 
 
@@ -110,7 +152,7 @@
   /* footer */
   .footer__license{
     margin: 20px 0;
-    text-align: center;
+    text-align: left;
   }
 }
 

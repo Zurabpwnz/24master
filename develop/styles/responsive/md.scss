@@ -1,15 +1,36 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
+  body {
+    background: /*url('../img/body_bg.png') center center no-repeat, */
+      url('../img/blue_bg.png') no-repeat #f7f8fb;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: $textColor;
+  }
+
+  .header-info__phone{
+    margin: 20px -15px;
+  }
+
+    .header-info__phone >span {
+      display: block;
+    }
+
+
+  
   aside{
     display: none;
   }
 
-
-
-
-
-
-
+  .menu-gadgets__top-line{
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  
+  .menu-domestic__item__top-line{
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
 
   .main-menu__item{
     margin-right: 20px;

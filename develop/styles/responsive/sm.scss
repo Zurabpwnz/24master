@@ -1,16 +1,19 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
+  body {
+    background: /*url('../img/body_bg.png') center center no-repeat, */
+      url('../img/blue_bg.png') no-repeat #f7f8fb;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: $textColor;
+  }
+
   aside{
     display: none;
   }
 
-
-
-
-
-
   .header-logo {
-    margin-top: 15px;
+    margin-top: 8px;
     width: 100%;
     height: auto;
   }
@@ -21,6 +24,28 @@
   .navbar-brand{
     width: 200px;
   }
+
+  .header-info__phone,
+  .header-info__address,
+  .header-info__working-hours {
+    margin: 16px 0;
+  }
+
+  .main-menu{
+    margin-top: 35px;
+  }
+
+
+  .advantages-block__item__desc{
+    height: 180px;
+  }
+
+  .page-article__cnt p > img{
+    padding-right: 30px;
+  }
+
+
+
 
   .logo--footer {
     margin-top: 15px;

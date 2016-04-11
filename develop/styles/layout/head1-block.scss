@@ -2,6 +2,7 @@
 
 .head-inner{
   overflow: hidden;
+  background: #fff;
   @include box-shadow($shadow);
 }
 
@@ -59,7 +60,6 @@
           }
 
   .head-inner__cnt{
-    background: #f7f8fb;
     padding: 30px 30px 20px;
 
     p{

@@ -38,9 +38,18 @@
       line-height: 24px;
       color: #505364;
 
+      >img{
+/*        width: 100%;
+        height: auto; */
+        float: left;
+
+        margin-bottom: 25px;
+      }
     }
 
     img{
+//      width: 100%;
+//      height: auto;
       margin-bottom: 25px;
     }
   }

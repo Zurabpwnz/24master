@@ -52,9 +52,9 @@
         -webkit-transition: all 1s ease-out;
 
         &:hover{
-          -webkit-transform: scale(1.2);
-          -moz-transform: scale(1.2);
-          -o-transform: scale(1.2);
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -o-transform: scale(1.05);
         }
       }
 
@@ -64,4 +64,5 @@
         width: 160px;
         height: 108px;
         margin: 0 0 0 1px;
+        padding-top: 20px;
       }
