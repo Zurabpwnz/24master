@@ -2,10 +2,10 @@
  * Third party
  */
 
-$(document).ready(function(){
+$(document).ready(function () {
 
     // fancybox
-    $(document).ready(function() {
+    $(document).ready(function () {
         $(".fancybox").fancybox();
     });
 
@@ -25,15 +25,21 @@ $(document).ready(function(){
 
 
 // animate scroll
-    $(function(){
+    $(function () {
         var topPos = $('.floating').offset().top;
-        $(window).scroll(function() {
+        $(window).scroll(function () {
             var top = $(document).scrollTop(),
                 pip = $('.footer').offset().top,
                 height = $('.floating').outerHeight();
-            if (top > topPos && top < pip - height) {$('.floating').addClass('fixed').removeAttr("style");}
-            else if (top > pip - height) {$('.floating').removeClass('fixed').css({'position':'absolute','bottom':'0'});}
-            else {$('.floating').removeClass('fixed');}
+            if (top > topPos && top < pip - height) {
+                $('.floating').addClass('fixed').removeAttr("style");
+            }
+//            else if (top > pip - height) {
+//                $('.floating').removeClass('fixed').css({'position': 'absolute', 'bottom': '0'});
+//            }
+            else {
+                $('.floating').removeClass('fixed');
+            }
         });
     });
 

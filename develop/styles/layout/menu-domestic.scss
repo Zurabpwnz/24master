@@ -15,18 +15,37 @@
     background: url('/img/menu-domestic__item__top-line-bg.jpg') repeat-y;
     height: 3px;
   }
-  
+
   .menu-domestic__item{
     background: #fff;
     overflow: hidden;
     height: 110px;
     margin-bottom: 30px;
     @include box-shadow($shadow);
-  }
-    
-    .menu-domestic__item__cnt{
 
+
+    .menu-domestic__item__icon{
+      -moz-transition: all 1s ease-out;
+      -o-transition: all 1s ease-out;
+      -webkit-transition: all 1s ease-out;
     }
+
+
+    &:hover{
+      .menu-domestic__item__icon{
+
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      }
+
+      .menu-domestic__item__title__link{
+          color: $linkColor;
+          outline: none;
+          text-decoration: none;
+      }
+    }
+  }
 
         .menu-domestic__item__title {
           padding-top: 30px;
@@ -45,18 +64,6 @@
             color: #505364;
           }
 
-
-      .menu-domestic__item__icon{
-        -moz-transition: all 1s ease-out;
-        -o-transition: all 1s ease-out;
-        -webkit-transition: all 1s ease-out;
-
-        &:hover{
-          -webkit-transform: scale(1.05);
-          -moz-transform: scale(1.05);
-          -o-transform: scale(1.05);
-        }
-      }
 
       .menu-domestic__item__link-icon{
         overflow: hidden;

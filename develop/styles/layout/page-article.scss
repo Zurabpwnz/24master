@@ -5,9 +5,16 @@
 }
 
   .page-article__cnt{
+    overflow: hidden;
     background: #fff;
     padding-bottom: 5px;
     @include box-shadow($shadow);
+
+    .page-article__cnt__img{
+      float: left;
+      width: 50%;
+      margin-bottom: 25px;
+    }
 
     h3{
       font-size: 18px;
@@ -25,6 +32,7 @@
 
     ol li,
     ul li {
+      float: left;
       margin-left: 15px;
       padding-left: 10px;
       list-style-image: url('/img/list-style-image.jpg');
@@ -38,19 +46,13 @@
       line-height: 24px;
       color: #505364;
 
-      >img{
-/*        width: 100%;
-        height: auto; */
-        float: left;
-
-        margin-bottom: 25px;
-      }
-    }
-
-    img{
-//      width: 100%;
-//      height: auto;
-      margin-bottom: 25px;
+  /*  >img{
+             width: 100%;
+             height: auto;
+             float: left;
+             margin-bottom: 25px;
+             margin-right: 25px;
+      } */
     }
   }
 

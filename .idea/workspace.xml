@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab87938c-1925-4d1d-92d0-08bd690210eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/img/menu-domestic__item-bg.jpg" afterPath="$PROJECT_DIR$/develop/img/menu-domestic__item-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/template/advantages-block.html" afterPath="$PROJECT_DIR$/develop/template/advantages-block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/template/head1-block.html" afterPath="$PROJECT_DIR$/develop/template/head1-block.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/head1-block.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/head1-block.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/template/header.html" afterPath="$PROJECT_DIR$/develop/template/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/header.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/index.html" afterPath="$PROJECT_DIR$/develop/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/responsive/md.scss" afterPath="$PROJECT_DIR$/develop/styles/responsive/md.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/form-sidebar.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/form-sidebar.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/menu-domestic.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/menu-domestic.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/template/menu-gadgets.html" afterPath="$PROJECT_DIR$/develop/template/menu-gadgets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/menu-gadgets.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/menu-gadgets.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/template/page-article.html" afterPath="$PROJECT_DIR$/develop/template/page-article.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/page-article.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/page-article.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/page.html" afterPath="$PROJECT_DIR$/develop/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/layout/reviews.scss" afterPath="$PROJECT_DIR$/develop/styles/layout/reviews.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/responsive/sm.scss" afterPath="$PROJECT_DIR$/develop/styles/responsive/sm.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/styles/responsive/xs.scss" afterPath="$PROJECT_DIR$/develop/styles/responsive/xs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/develop/js/script.js" afterPath="$PROJECT_DIR$/develop/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="24master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,40 +30,40 @@
     <favorites_list name="24master" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44558743">
+    <splitter split-orientation="horizontal" split-proportion="0.6230012">
       <split-first>
         <leaf>
           <file leaf-file-name="menu-domestic.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/develop/styles/layout/menu-domestic.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="53" column="16" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-21.923077" vertical-offset="331" max-vertical-offset="1241">
+                <state line="34" column="33" selection-start="720" selection-end="720" vertical-scroll-proportion="-16.307692" vertical-offset="154" max-vertical-offset="1360">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="reviews.scss" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/develop/styles/layout/reviews.scss">
+          <file leaf-file-name="page-article.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/develop/styles/layout/page-article.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="17" selection-start="301" selection-end="301" vertical-scroll-proportion="0.32362822" vertical-offset="0" max-vertical-offset="893">
+                <state line="15" column="23" selection-start="273" selection-end="273" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1156">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header__inner.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/develop/styles/layout/header__inner.scss">
+          <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/develop/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="20" selection-start="251" selection-end="251" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="476">
+                <state line="30" column="46" selection-start="749" selection-end="749" vertical-scroll-proportion="0.5179543" vertical-offset="0" max-vertical-offset="919">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="head1-block.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/develop/styles/layout/head1-block.scss">
+          <file leaf-file-name="page-article.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/develop/template/page-article.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="19" selection-start="126" selection-end="126" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1343">
+                <state line="9" column="50" selection-start="344" selection-end="366" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1139">
                   <folding />
                 </state>
               </provider>
@@ -104,7 +94,7 @@
           <file leaf-file-name="xs.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/develop/styles/responsive/xs.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="114" column="20" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.60470325" vertical-offset="1398" max-vertical-offset="2890">
+                <state line="102" column="23" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.31914893" vertical-offset="1449" max-vertical-offset="2890">
                   <folding />
                 </state>
               </provider>
@@ -131,7 +121,6 @@
         <option value="$PROJECT_DIR$/develop/template/footer.html" />
         <option value="$PROJECT_DIR$/develop/template/form-sidebar.html" />
         <option value="$PROJECT_DIR$/develop/styles/layout/alert-block.scss" />
-        <option value="$PROJECT_DIR$/develop/js/script.js" />
         <option value="$PROJECT_DIR$/develop/styles/layout/menu-professional.scss" />
         <option value="$PROJECT_DIR$/develop/styles/layout/blog-list.scss" />
         <option value="$PROJECT_DIR$/develop/template/blog-list.html" />
@@ -148,7 +137,6 @@
         <option value="$PROJECT_DIR$/build/styles/main.css" />
         <option value="$PROJECT_DIR$/develop/template/sidebar.html" />
         <option value="$PROJECT_DIR$/develop/template/reviews.html" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/form-sidebar.scss" />
         <option value="$PROJECT_DIR$/develop/template/slider.html" />
         <option value="$PROJECT_DIR$/develop/styles/layout/sidebar.scss" />
         <option value="$PROJECT_DIR$/develop/styles/main.scss" />
@@ -162,13 +150,9 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-41/custom.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-41/index.phtml" />
         <option value="$PROJECT_DIR$/develop/template/header.html" />
-        <option value="$PROJECT_DIR$/develop/template/menu-gadgets.html" />
         <option value="$PROJECT_DIR$/develop/styles/layout/menu-gadgets.scss" />
         <option value="$PROJECT_DIR$/develop/index.html" />
         <option value="$PROJECT_DIR$/develop/page.html" />
-        <option value="$PROJECT_DIR$/develop/template/page-article.html" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/page-article.scss" />
-        <option value="$PROJECT_DIR$/develop/styles/layout/menu-domestic.scss" />
         <option value="$PROJECT_DIR$/develop/styles/layout/head1-block.scss" />
         <option value="$PROJECT_DIR$/develop/template/advantages-block.html" />
         <option value="$PROJECT_DIR$/develop/styles/responsive/md.scss" />
@@ -176,6 +160,12 @@
         <option value="$PROJECT_DIR$/develop/template/head1-block.html" />
         <option value="$PROJECT_DIR$/develop/styles/responsive/xs.scss" />
         <option value="$PROJECT_DIR$/develop/styles/layout/reviews.scss" />
+        <option value="$PROJECT_DIR$/develop/template/menu-gadgets.html" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/menu-domestic.scss" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/form-sidebar.scss" />
+        <option value="$PROJECT_DIR$/develop/template/page-article.html" />
+        <option value="$PROJECT_DIR$/develop/styles/layout/page-article.scss" />
+        <option value="$PROJECT_DIR$/develop/js/script.js" />
       </list>
     </option>
   </component>
@@ -325,6 +315,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="24master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="24master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="develop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -369,7 +377,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.038020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -411,13 +419,6 @@
     <entry file="file://$PROJECT_DIR$/develop/template/menu-professional.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="52" selection-start="118" selection-end="142" vertical-scroll-proportion="0.05711086" vertical-offset="0" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="3" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.6942605" vertical-offset="0" max-vertical-offset="906">
           <folding />
         </state>
       </provider>
@@ -481,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/template/menu-domestic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="0" selection-start="8089" selection-end="8089" vertical-scroll-proportion="0.9613636" vertical-offset="2248" max-vertical-offset="3332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/develop/img/main-catalog__item-bg--2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -520,13 +514,6 @@
     <entry file="file://$PROJECT_DIR$/develop/styles/layout/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="24" selection-start="343" selection-end="343" vertical-scroll-proportion="0.418813" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/form-sidebar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="172" selection-end="172" vertical-scroll-proportion="0.19036955" vertical-offset="0" max-vertical-offset="893">
           <folding />
         </state>
       </provider>
@@ -599,34 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="43" selection-end="49" vertical-scroll-proportion="0.058891457" vertical-offset="0" max-vertical-offset="866">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/develop/styles/layout/menu-professional.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.11422172" vertical-offset="0" max-vertical-offset="893">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="20" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.43784994" vertical-offset="2193" max-vertical-offset="3910">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/template/menu-gadgets.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="86" selection-start="952" selection-end="952" vertical-scroll-proportion="0.34266517" vertical-offset="0" max-vertical-offset="893">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,30 +614,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/page-article.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="267" selection-end="267" vertical-scroll-proportion="0.32362822" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/template/page-article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="335" selection-end="335" vertical-scroll-proportion="0.17386363" vertical-offset="0" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/develop/styles/layout/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="14" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.39529675" vertical-offset="1772" max-vertical-offset="3400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/menu-domestic.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-21.923077" vertical-offset="331" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>
@@ -700,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/layout/header__inner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="251" selection-end="251" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/develop/template/head1-block.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="34" selection-start="598" selection-end="598" vertical-scroll-proportion="0.2989449" vertical-offset="0" max-vertical-offset="901">
@@ -728,16 +663,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/styles/responsive/xs.scss">
+    <entry file="file://$PROJECT_DIR$/develop/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="20" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.60470325" vertical-offset="1398" max-vertical-offset="2890">
+        <state line="63" column="0" selection-start="1076" selection-end="1227" vertical-scroll-proportion="0.37182447" vertical-offset="749" max-vertical-offset="3910">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/template/menu-domestic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="0" selection-start="8089" selection-end="8089" vertical-scroll-proportion="0.9917937" vertical-offset="2248" max-vertical-offset="3332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/template/menu-gadgets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="10" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.6576788" vertical-offset="0" max-vertical-offset="853">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/develop/styles/layout/head1-block.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="126" selection-end="126" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1343">
+        <state line="8" column="19" selection-start="126" selection-end="126" vertical-scroll-proportion="0.15704387" vertical-offset="0" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/header__inner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="251" selection-end="251" vertical-scroll-proportion="0.22844344" vertical-offset="0" max-vertical-offset="893">
           <folding />
         </state>
       </provider>
@@ -745,6 +705,62 @@
     <entry file="file://$PROJECT_DIR$/develop/styles/layout/reviews.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="17" selection-start="301" selection-end="301" vertical-scroll-proportion="0.32362822" vertical-offset="0" max-vertical-offset="893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="23" selection-start="43" selection-end="49" vertical-scroll-proportion="0.05711086" vertical-offset="0" max-vertical-offset="893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/menu-domestic.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="33" selection-start="720" selection-end="720" vertical-scroll-proportion="-16.307692" vertical-offset="154" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/responsive/xs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="23" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.31914893" vertical-offset="1449" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/jquery.fancybox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/template/page-article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="50" selection-start="344" selection-end="366" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/form-sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="151" selection-end="151" vertical-scroll-proportion="0.17133258" vertical-offset="0" max-vertical-offset="893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/styles/layout/page-article.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="273" selection-end="273" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="46" selection-start="749" selection-end="749" vertical-scroll-proportion="0.5179543" vertical-offset="0" max-vertical-offset="919">
           <folding />
         </state>
       </provider>
