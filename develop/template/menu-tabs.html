@@ -1,0 +1,34 @@
+<section class="menu-tabs">
+    <div class="row">
+        <div class="col-sm-6">
+            <p class="title menu-tabs__title">Выберите бренд или тип поломки</p>
+        </div>
+        <div class="col-sm-6">
+            <div class="menu-tabs__cnt">
+                <div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active" role="presentation">
+                            <a href="#for-problem" aria-controls="for-problem" role="tab" data-toggle="tab">По типу поломки</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#for-brand" aria-controls="for-brand" role="tab" data-toggle="tab">По бренду</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="for-problem">
+                    //= menu-problems__lst.html
+                </div>
+                <div role="tabpanel" class="tab-pane" id="for-brand">
+                    //= menu-brands__lst.html
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

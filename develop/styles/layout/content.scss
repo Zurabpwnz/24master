@@ -1,7 +1,8 @@
 /* content */
 
 #content {
-//  background: #f7f8fb;
+  overflow: hidden;
+  background: #f7f8fb;
   z-index: 30;
-  height: 130vh;
+  height: 100%;
 }

@@ -1,0 +1,49 @@
+/* menu-brands */
+
+.menu-brands{
+  overflow: hidden;
+}
+
+  .menu-brands__title{
+    background-image: url('/img/menu-brands__tile-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+  }
+
+  .menu-brands__cnt{
+    @include box-shadow($shadow);
+    background: #fff;
+    padding: 30px 15px 0;
+  }
+
+    .menu-brands__item{
+      margin-bottom: 20px;
+      text-align: center;
+
+      &:hover{
+        .menu-brands__item__name{
+          text-decoration: none;
+          color: $linkColor;
+        }
+      }
+    }
+
+      .menu-brands__item__logo{
+        height: 65px;
+        display: table;
+        margin: auto;
+      }
+
+        .menu-brands__item__logo__link{
+          display: table-cell;
+          vertical-align: middle;
+        }
+
+      .menu-brands__item__name{
+        display: inline-block;
+        margin: 10px;
+        @include textLink($fz, $fw);
+        line-height: 1.2;
+        text-decoration: none;
+      }
+

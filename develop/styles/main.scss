@@ -87,10 +87,10 @@ a {
   background: #f0f6f9;
   margin-bottom: 20px;
   color: #505364;
-  -webkit-transition: background 0.5s ease-out 0.2s;
-  -moz-transition: background 0.5s ease-out 0.2s;
-  -o-transition: background 0.5s ease-out 0.2s;
-  transition: background 0.5s ease-out 0.2s;
+  -webkit-transition: background 0.2s ease-out 0.2s;
+  -moz-transition: background 0.2s ease-out 0.2s;
+  -o-transition: background 0.2s ease-out 0.2s;
+  transition: background 0.2s ease-out 0.2s;
 
 
   &:hover {
@@ -105,10 +105,10 @@ a {
   margin-bottom: 0;
   color: #fff;
   font-weight: 400;
-  -webkit-transition: background 0.5s ease-out 0.2s;
-  -moz-transition: background 0.5s ease-out 0.2s;
-  -o-transition: background 0.5s ease-out 0.2s;
-  transition: background 0.5s ease-out 0.2s;
+  -webkit-transition: background 0.2s ease-out 0.2s;
+  -moz-transition: background 0.2s ease-out 0.2s;
+  -o-transition: background 0.2s ease-out 0.2s;
+  transition: background 0.2s ease-out 0.2s;
 
   &:hover {
     background: #1a79a8;
@@ -145,9 +145,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background: /*url('../img/body_bg.png') center center no-repeat, */
-              url('../img/blue_bg.png') no-repeat,
-              url('../img/body_bg.png') -1841px center repeat-y;
+  background: #404040;
+  height: 100%;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   color: $textColor;
@@ -193,11 +192,13 @@ label {
 .wrapper {
   position: relative;
   width: 100%;
+  height: 100%;
   z-index: 10;
 }
 
 @import "layout/header";
 @import "layout/head1-block";
+@import "layout/blog-header";
 @import "layout/sidebar";
 @import "layout/form-sidebar";
 
@@ -212,6 +213,9 @@ label {
 @import "layout/blog-list";
 @import "layout/reviews";
 @import "layout/prices-block";
+@import "layout/menu-problems";
+@import "layout/menu-brands";
+@import "layout/menu-tabs";
 
 
 

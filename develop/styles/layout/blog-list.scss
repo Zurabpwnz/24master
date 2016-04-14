@@ -11,6 +11,7 @@
   }
 
   .blog-list__cnt{
+    overflow: hidden;
     background: #fff;
     padding: 30px 30px 15px;
     @include box-shadow($shadow);

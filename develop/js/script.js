@@ -24,7 +24,7 @@ $(document).ready(function () {
     });
 
 
-// animate scroll
+    // animate scroll
     $(function () {
         var topPos = $('.floating').offset().top;
         $(window).scroll(function () {
@@ -34,13 +34,19 @@ $(document).ready(function () {
             if (top > topPos && top < pip - height) {
                 $('.floating').addClass('fixed').removeAttr("style");
             }
-//            else if (top > pip - height) {
-//                $('.floating').removeClass('fixed').css({'position': 'absolute', 'bottom': '0'});
-//            }
+            else if (top > pip - height) {
+                $('.floating').removeClass('fixed').css({'position': 'fixed', 'width': '292.5px', 'top': '0'});
+            }
             else {
                 $('.floating').removeClass('fixed');
             }
         });
+    });
+
+
+    // sidebar
+    $(".call-the-master").click(function(){
+       $("#sidebar").toggleClass("show");
     });
 
 });

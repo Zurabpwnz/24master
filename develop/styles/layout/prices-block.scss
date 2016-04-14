@@ -12,7 +12,8 @@
 
   .prices-block__table{
     background: #fff;
-    @include box-shadow($shadow);
+    border: 1px solid #e8e9f5;
+    border-bottom-width: 2px;
     border-radius: 2px;
 
     >tbody{

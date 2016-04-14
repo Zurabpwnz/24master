@@ -1,6 +1,43 @@
 /* header
 ********************/
 
+.swiper-sidebar {
+  height: 70px;
+  z-index: 35;
+  background: #323232;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.call-the-master{
+  background: #353535;
+  display: inline-block;
+  border: 1px dashed #424242;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.23);
+  margin: 0 0 2px 0;
+  padding: 0 15px;
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 700;
+  left: 15px;
+  color: #ffcc2b;
+  top: 5px;
+  position: relative;
+  width: 250px;
+  text-transform: uppercase;
+  
+  >span{
+    border-bottom: 1px dashed #ffcc2b;;
+  }
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
 .header {
   background: #323232;
   width: 100%;
@@ -9,15 +46,17 @@
 }
 
 .top-line {
-  position: relative;
   background: url("../img/top_line.png") center center;
   height: 3px;
   z-index: 67;
 }
 
 .header-info {
+  position: relative;
   background: #fff;
-  height: 81px;
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.42);
+  height: 82px;
+  z-index: 25;
 }
 
 
@@ -46,10 +85,12 @@
 }
 
 .main-menu {
+  background: #323232;
   overflow: hidden;
   font-size: 0;
   text-align: right;
   margin-top: 28px;
+  margin-bottom: 0;
 }
 
 .main-menu__item {

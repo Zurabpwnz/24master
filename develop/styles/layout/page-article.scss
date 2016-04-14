@@ -10,10 +10,19 @@
     padding-bottom: 5px;
     @include box-shadow($shadow);
 
+    .page-article__cnt__img-block{
+      overflow: hidden;
+    }
+
     .page-article__cnt__img{
       float: left;
       width: 50%;
       margin-bottom: 25px;
+
+      > img{
+        width: 100%;
+        height: auto;
+      }
     }
 
     h3{
@@ -32,7 +41,6 @@
 
     ol li,
     ul li {
-      float: left;
       margin-left: 15px;
       padding-left: 10px;
       list-style-image: url('/img/list-style-image.jpg');

@@ -13,6 +13,8 @@
 
   .menu-domestic__item__top-line{
     background: url('/img/menu-domestic__item__top-line-bg.jpg') repeat-y;
+    -webkit-background-size: contain;
+    background-size: contain;
     height: 3px;
   }
 

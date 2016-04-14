@@ -10,6 +10,7 @@
   }
 
     .menu-professional__all-items{
+      overflow: hidden;
       background: #fff;
       padding: 30px 30px 15px;
       @include box-shadow($shadow);
@@ -17,6 +18,8 @@
     }
       .menu-professional__lst{
         overflow: hidden;
+        -webkit-columns: 3;
+        columns: 3;
       }
 
         .menu-professional__item{

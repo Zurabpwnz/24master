@@ -1,15 +1,12 @@
 @media (max-width: 767px) {
 
-  body {
-    background: /*url('../img/body_bg.png') center center no-repeat, */
-      url('../img/blue_bg.png') no-repeat #f7f8fb;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
-    color: $textColor;
+  body{
+    background: transparent;
   }
-
+  
   /* header */
   .header{
+    margin-top: 70px;
     height: auto;
   }
 
@@ -18,6 +15,7 @@
   }
 
   .header-info{
+    position: static;
     height: auto;
   }
 
@@ -42,6 +40,38 @@
     line-height: 2;
   }
 
+  .header-info__phone,
+  .header-info__address,
+  .header-info__working-hours{
+    margin: 10px 0;
+  }
+
+
+  .header-info__phone >span{
+    display: block;
+  }
+
+
+  /* head1-block */
+  .head1-block{
+    margin-top: 30px;
+  }
+
+  .head1-block__title{
+    font-size: 36px;
+    white-space: normal;
+  }
+
+  .head1-block__question{
+    display: block;
+    padding-left: 30px;
+    line-height: 1.2;
+  }
+
+  .head1-block__call-master{
+    margin-left: 30px;
+  }
+
   /* menu */
   .container-fluid > .navbar-collapse{
     padding-left: 0;
@@ -51,7 +81,6 @@
   .main-menu {
     margin-top: 0;
     padding-top: 20px;
-    background: #201215;
     opacity: 0.9;
   }
 
@@ -59,6 +88,10 @@
     margin-right: 0;
     display: block;
     border: none;
+
+    &:first-child{
+      display: none;
+    }
   }
 
   .main-menu__link {
@@ -67,6 +100,10 @@
   }
 
   /* menu-gadgets */
+  .menu-gadgets{
+    margin-top: 0;
+  }
+
   .menu-gadgets__top-line{
     -webkit-background-size: cover;
     background-size: cover;
@@ -74,6 +111,10 @@
   }
 
   /* menu-domestic */
+  .menu-domestic__item{
+    height: auto;
+  }
+
   .menu-domestic__item__link-icon{
     display: none;
   }
@@ -82,14 +123,44 @@
     padding: 30px;
   }
 
-  /* sidebar */
+  /* content */
   aside{
+    visibility: hidden;
+  }
+  
+  #sidebar {
+    overflow: hidden;
+    background: #323232;
+    height: 100vh;
+    margin: 0 -15px;
+    padding: 15px;
+    color: #fff;
+    position: fixed;
+    top: 60px;
+    left: 15px;
+    z-index: 99;
+    width: 279.5px !important;
+    z-index: 35;
+  }
+
+  .form-sidebar__title{
+    color: #fff;
+  }
+
+  .sidebar__category-item,
+  .sidebar__around-clock,
+  .sidebar__phone {
     display: none;
   }
 
-  /* content */
-  .slider{
-    display: none;
+  .show{
+    top: 60px !important;
+    visibility: visible;
+    -webkit-transition: visibility 3s;
+    -moz-transition: visibility 3s;
+    -ms-transition: visibility 3s;
+    -o-transition: visibility 3s;
+    transition: visibility 3s;
   }
 
   .title{
@@ -102,7 +173,12 @@
   .alert-block,
   .page-article__title,
   .reviews__title,
-  .blog-list__title{
+  .blog-list__title,
+  .menu-professional__title,
+  .menu-domestic__title,
+  .menu-brands__title,
+  .menu-problems__title,
+  .menu-tabs__title{
     background-image: none;
   }
 
@@ -125,7 +201,26 @@
   }
 
   .prices-block__table > tbody > tr > td{
-    padding: 15px;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+  }
+
+  /* menu-problems */
+  .menu-problems__cnt{
+    padding: 30px 30px 10px;
+  }
+
+  .menu-problems__lst{
+    margin-bottom: 20px;
+  }
+
+
+  /* menu-tabs */
+  .menu-tabs__cnt{
+    float: left;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
 
@@ -134,18 +229,43 @@
     height: 190px;
   }
 
-  .page-article__cnt p > img{
-    width: 100%;
-    height: auto;
+  .page-article__cnt{
+    padding-top: 25px;
+  }
+
+  .page-article__cnt__img{
+    display: none;
   }
 
 
 
+  /* menu-professional */
+  .menu-professional__lst{
+    -webkit-columns: 1;
+    columns: 1;
+    margin-bottom: 0;
+  }
+
+
+  /* blog */
+  .blog-list__lst{
+    margin-bottom: 20px;
+  }
+
+  .btn-light{
+    white-space: normal;
+  }
 
   .btn-blue{
     float: none;
     width: 100%;
-    margin: 0 30px 30px 0;
+    margin: 10px 0 30px;
+  }
+
+  .btn-blue--lg{
+    float: none;
+    width: 100%;
+    margin: 10px 30px 0 0;
   }
 
 
@@ -158,8 +278,16 @@
 
 @media (max-width: 320px) {
 
+//  #sidebar{
+//    width: 100%;
+//  }
+
+  .call-the-master{
+    width: 264px;
+  }
+
   .navbar-brand {
-    width: 250px;
+    width: auto;
   }
 
 }
