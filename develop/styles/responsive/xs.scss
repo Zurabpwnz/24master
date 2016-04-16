@@ -182,7 +182,6 @@
     background-image: none;
   }
 
-
   .alert-block{
     padding: 25px 30px;
   }
@@ -190,7 +189,27 @@
   .alert-block__time{
     text-align: left;
   }
-  
+
+
+  /* blog */
+  .blog-article{
+    margin-top: 30px;
+  }
+
+  .blog-article__title{
+    padding: 0 30px 30px;
+  }
+
+  .blog-header{
+    margin-top: 30px;
+  }
+
+  .blog__post__desc,
+  .blog__post__title{
+    padding-left: 30px;
+  }
+
+
   /* price-block */
   .prices-block__table{
     margin-bottom: 0;

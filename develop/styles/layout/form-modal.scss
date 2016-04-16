@@ -1,0 +1,28 @@
+/* form modal */
+
+.form-modal{
+  overflow: hidden;
+  margin-bottom: 0;
+  padding: 20px;
+
+  &:hover{
+    @include dashedHover;
+  }
+
+  label{
+    color: #fff;
+  }
+}
+
+.form-modal__title{
+  padding-right: 55px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffcc2b;
+  text-transform: uppercase;
+}
+
+
+
+

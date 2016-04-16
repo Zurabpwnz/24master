@@ -116,6 +116,25 @@ a {
   }
 }
 
+.btn-red {
+  float: right;
+  background: #fe7087;
+  margin-top: 25px;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 400;
+  -webkit-transition: background 0.2s ease-out 0.2s;
+  -moz-transition: background 0.2s ease-out 0.2s;
+  -o-transition: background 0.2s ease-out 0.2s;
+  transition: background 0.2s ease-out 0.2s;
+
+  &:hover {
+    background: #ca4b7c;
+    color: #fff;
+  }
+}
+
+
 .btn-blue--lg{
   width: 100%;
   margin-top: 10px;
@@ -128,6 +147,22 @@ a {
 
   &:hover {
     background: #1a79a8;
+    color: #fff;
+  }
+}
+
+.btn-red--lg{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 23px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  border-bottom: 4px solid #ca4b7c ;
+  text-transform: uppercase;
+
+  &:hover {
+    background: #ca4b7c;
     color: #fff;
   }
 }
@@ -201,6 +236,7 @@ label {
 @import "layout/blog-header";
 @import "layout/sidebar";
 @import "layout/form-sidebar";
+@import "layout/form-modal";
 
 @import "layout/content";
 @import "layout/slider";
@@ -211,15 +247,20 @@ label {
 @import "layout/alert-block";
 @import "layout/page-article";
 @import "layout/blog-list";
+@import "layout/blog-tabs";
+@import "layout/blog-items";
+@import "layout/blog-article";
 @import "layout/reviews";
 @import "layout/prices-block";
 @import "layout/menu-problems";
 @import "layout/menu-brands";
 @import "layout/menu-tabs";
+@import "layout/blog-items-pagination";
+@import "layout/breadcrumbs__module";
+@import "layout/modal";
 
 
 
-@import "layout/pagination";
 @import "layout/404";
 @import "layout/footer";
 

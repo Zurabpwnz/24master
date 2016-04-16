@@ -20,13 +20,34 @@
       margin-bottom: 20px;
       text-align: center;
 
-      &:hover{
+        div.menu-brands__item__link{
+          display: block;
+
+          &:hover{
+            cursor: no-drop;
+
+            .menu-brands__item__name{
+              color: #505364;
+            }
+           }
+
+          .menu-brands__item__name{
+            text-decoration: none;
+            color: #505364;
+          }
+      }
+    }
+
+    .menu-brands__item__link{
+      display: block;
+    }
+
+      .menu-brands__item:hover{
         .menu-brands__item__name{
           text-decoration: none;
           color: $linkColor;
         }
       }
-    }
 
       .menu-brands__item__logo{
         height: 65px;
@@ -34,7 +55,7 @@
         margin: auto;
       }
 
-        .menu-brands__item__logo__link{
+       .menu-brands__item__logo__link{
           display: table-cell;
           vertical-align: middle;
         }

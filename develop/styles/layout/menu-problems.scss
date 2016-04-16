@@ -18,6 +18,10 @@
 
     .menu-problems__lst{
       overflow: hidden;
+      -webkit-columns: 2;
+      columns: 2;
+      -webkit-column-gap: 30px;
+      column-gap: 30px;
       margin-bottom: 0;
     }
 
@@ -28,6 +32,15 @@
           margin-bottom: 0;
         }
       }
+
+        span.menu-problems__lst__item__link{
+          cursor: no-drop;
+
+          &:hover{
+            background: #f0f6f9;
+            color: #505364;
+          }
+        }
 
         .menu-problems__lst__item__link{
           margin-bottom: 0;
