@@ -222,6 +222,10 @@ label {
   border-top: none;
 }
 
+.required{
+  color: #b94571;
+}
+
 /* main */
 
 .wrapper {
@@ -250,15 +254,22 @@ label {
 @import "layout/blog-tabs";
 @import "layout/blog-items";
 @import "layout/blog-article";
+@import "layout/contact-data";
+@import "layout/contact-form";
+@import "layout/contact-map";
 @import "layout/reviews";
 @import "layout/prices-block";
 @import "layout/menu-problems";
 @import "layout/menu-brands";
 @import "layout/menu-tabs";
+@import "layout/tipical-prices-block";
 @import "layout/blog-items-pagination";
 @import "layout/breadcrumbs__module";
-@import "layout/modal";
+@import "layout/offers-list";
+@import "layout/offers-archive";
 
+
+@import "layout/modal";
 
 
 @import "layout/404";

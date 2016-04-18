@@ -1,0 +1,26 @@
+/* contact-form */
+
+.contact-form{
+  overflow: hidden;
+}
+
+  .contact-form__title{
+    background-image: url('/img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+  }
+
+  .contact-form__cnt{
+    overflow: hidden;
+    background: #fff;
+    @include box-shadow($shadow);
+    padding: 30px;
+
+    label{
+      color: #505364;
+    }
+    
+    .form-control{
+      border-color: #9fa1a8;
+    }
+  }

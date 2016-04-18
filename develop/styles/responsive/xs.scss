@@ -178,7 +178,12 @@
   .menu-domestic__title,
   .menu-brands__title,
   .menu-problems__title,
-  .menu-tabs__title{
+  .menu-tabs__title,
+  .contact-map__title,
+  .contact-form__title,
+  .contact-data__title,
+  .offers-archive__title,
+  .offers-list__title{
     background-image: none;
   }
 
@@ -286,6 +291,15 @@
     width: 100%;
     margin: 10px 30px 0 0;
   }
+
+
+
+  /* action */
+  .act-date{
+    position: relative;
+    margin: 0;
+  }
+
 
 
   /* footer */

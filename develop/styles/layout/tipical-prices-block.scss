@@ -1,0 +1,30 @@
+/* tipical-prices-block */
+
+.tipical-prices-block{
+  overflow: hidden;
+}
+
+  .tipical-prices-block__title{
+    background-image: url('/img/tipical-prices-block__title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+  }
+
+    .tipical-prices-block__cnt {
+      float: left;
+      @include box-shadow($shadow);
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+
+    .tab-content--tipical-prices-block{
+      padding: 0;
+
+      .prices-block__table {
+        background: #fff;
+        margin-bottom: 0;
+        border: 1px solid #e8e9f5;
+        border-bottom-width: 1px;
+        border-radius: 2px;
+      }
+    }

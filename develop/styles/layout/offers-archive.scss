@@ -1,0 +1,28 @@
+/* offers-archive */
+
+.offers-archive{
+  overflow: hidden;
+}
+
+  .offers-archive__title{
+    background-image: url('/img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+  }
+
+  .offers-archive__item{
+    overflow: hidden;
+    @include box-shadow($shadow);
+    margin-bottom: 30px;
+    opacity: 0.5;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+    .offers-archive__item__cnt{
+      position: relative;
+      min-height: 250px;
+      padding: 30px;
+    }

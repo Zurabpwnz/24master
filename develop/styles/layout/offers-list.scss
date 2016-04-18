@@ -1,0 +1,50 @@
+/* offers-list */
+
+.offers-list{
+  overflow: hidden;
+}
+
+  .offers-list__title{
+    background-image: url('/img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+  }
+
+  .offers-list__item{
+    overflow: hidden;
+    @include box-shadow($shadow);
+    margin-bottom: 30px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+    .offers-list__item__cnt{
+      position: relative;
+      min-height: 250px;
+      padding: 30px;
+    }
+
+      .act-title{
+        font-size: 38px;
+        line-height: 1;
+        color: #fff;
+      }
+
+      .act-text{
+        font-size: 24px;
+        line-height: 1;
+        color: #fff;
+        position: relative;
+        padding-bottom: 20px;
+      }
+
+      .act-date{
+        position: absolute;
+        bottom: 0;
+        margin: 20px 0;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #323232;
+      }

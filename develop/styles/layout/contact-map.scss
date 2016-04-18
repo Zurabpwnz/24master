@@ -1,0 +1,15 @@
+/* contact-map */
+
+.contact-map{
+  overflow: hidden;
+}
+
+  .contact-map__title{
+    background-image: url('/img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+  }
+
+  .contact-map__cnt{
+    @include box-shadow($shadow);
+  }
