@@ -40,6 +40,7 @@
 
     .menu-brands__item__link{
       display: block;
+      text-decoration: none;
     }
 
       .menu-brands__item:hover{
@@ -58,10 +59,15 @@
        .menu-brands__item__logo__link{
           display: table-cell;
           vertical-align: middle;
+
+         > img {
+           width: 100%;
+           height: auto;
+         }
         }
 
       .menu-brands__item__name{
-        display: inline-block;
+        display: inline;
         margin: 10px;
         @include textLink($fz, $fw);
         line-height: 1.2;

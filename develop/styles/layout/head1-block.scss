@@ -16,6 +16,26 @@
     background-image: -ms-linear-gradient( 156deg, rgb(202,75,124) 0%, rgba(202,75,124,0) 100%);
     background-color: #dc687e;
     padding-bottom: 20px;
+
+    .head1-block__call-master {
+      background: url('/img/head-inner__call-master-bg.png') no-repeat left center;
+      margin-left: 10px;
+      padding-left: 25px;
+      font-size: 16px;
+      line-height: 50px;
+      font-weight: 700;
+      color: #323232;
+      text-decoration: none;
+
+      &:hover {
+        color: #fff;
+      }
+
+      > span {
+        border-bottom: 1px dashed #323232;
+      }
+    }
+
   }
 
       .head1-block__title{
@@ -35,24 +55,7 @@
           color: #fff;
         }
 
-        .head1-block__call-master{
-          background: url('/img/head-inner__call-master-bg.png') no-repeat left center;
-          margin-left: 10px;
-          padding-left: 25px;
-          font-size: 16px;
-          line-height: 50px;
-          font-weight: 700;
-          color: #323232;
-          text-decoration: none;
 
-          &:hover{
-            color: #fff;
-          }
-          
-          >span{
-            border-bottom: 1px dashed #323232;
-          }
-        }
 
         .head1-block__social-icons{
           text-align: right;

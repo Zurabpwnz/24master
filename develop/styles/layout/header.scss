@@ -131,10 +131,21 @@
 
   &.active {
 
+    :hover {
+
+      cursor: default;
+
+      > a,
+      span {
+        color: #fff;
+      }
+    }
+
     > a,
     span {
       color: #fff;
     }
+
   }
 
   &:hover {
